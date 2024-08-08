@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo list</title>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Todo List</h1>
+        <ul id="ul1">
+            <li><input type="checkbox"> Milk</li>
+            <li><input type="checkbox"> Eggs</li>
+            <li><input type="checkbox"> Cheese</li>
+            
+        </ul>
+        <div class="add-item">
+            <input id="input1" type="text" placeholder="Memorize the dictionary">
+            <button onclick="xin_chao()">Add Item</button>
+            
+        </div>
+    </div>
+     
 </body>
+<script>
+    function xin_chao(){
+        console.log(document.getElementById("input1").value)
+    // document.getElementById("input").value
+    var ul = document.getElementById("ul1");
+  var li = document.createElement("li"); 
+  li.type="checkbox";
+  li.appendChild(document.createTextNode(document.getElementById("input1").value));
+  ul.appendChild(li);
+}
+</script>
 </html>
