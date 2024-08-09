@@ -24,15 +24,19 @@
     </div>
      
 </body>
+
 <script>
-    function xin_chao(){
-        console.log(document.getElementById("input1").value)
-    // document.getElementById("input").value
-    var ul = document.getElementById("ul1");
-  var li = document.createElement("li"); 
-  li.type="checkbox";
-  li.appendChild(document.createTextNode(document.getElementById("input1").value));
-  ul.appendChild(li);
-}
+    function xin_chao() {
+        var inputValue = document.getElementById("input1").value;
+        var ul = document.getElementById("ul1");
+        var li = document.createElement("li");
+        var checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        var text = document.createTextNode(inputValue);
+        li.appendChild(checkbox);
+        li.appendChild(text);
+        ul.appendChild(li);
+        document.getElementById("input1").value = "";
+    }
 </script>
 </html>
