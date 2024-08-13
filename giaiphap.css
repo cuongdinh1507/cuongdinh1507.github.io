@@ -1,0 +1,36 @@
+body {
+    background-color: #AB2D2E;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color:white;
+    height: 800px;
+}
+h1{
+    width: 50%; /* Hoặc một giá trị cố định */
+    margin: 0 auto;
+    text-align: center;
+}
+.than{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section{
+    background-color: white;
+    color: black;
+    width: 380px;
+    
+    padding: 20px;
+    
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+}
+.section .title{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}

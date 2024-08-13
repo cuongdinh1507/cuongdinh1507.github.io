@@ -1,0 +1,28 @@
+body{
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  
+ 
+}
+h1{
+    color: #2D8FCC;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.under{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right{
+    margin-left: 300px;
+}
+.left{
+    margin-right: 300px;
+}

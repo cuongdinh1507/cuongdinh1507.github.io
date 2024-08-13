@@ -1,42 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        
+    </head>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="index.js"></script>
+    <title>GTSC</title>
+    
 </head>
 <body>
-    <div class="container">
-        <h1>Todo List</h1>
-        <ul id="ul1">
-            <li><input type="checkbox"> Milk</li>
-            <li><input type="checkbox"> Eggs</li>
-            <li><input type="checkbox"> Cheese</li>
-            
-        </ul>
-        <div class="add-item">
-            <input id="input1" type="text" placeholder="Memorize the dictionary">
-            <button onclick="xin_chao()">Add Item</button>
-            
-        </div>
-    </div>
-     
-</body>
 
-<script>
-    function xin_chao() {
-        var inputValue = document.getElementById("input1").value;
-        var ul = document.getElementById("ul1");
-        var li = document.createElement("li");
-        var checkbox = document.createElement("input");
-        checkbox.type = "checkbox";
-        var text = document.createTextNode(inputValue);
-        li.appendChild(checkbox);
-        li.appendChild(text);
-        ul.appendChild(li);
-        document.getElementById("input1").value = "";
-    }
-</script>
+    <header>
+        <div class="header">
+            <div class="imglogo">
+                <img src="FINALE GTSC-05 1.svg" alt="GTSC Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#">Trang chủ</a>
+                <a href="#">Về GTSC</a>
+                <a href="#">Sản phẩm</a>
+                <a href="#">Tin tức</a>
+            </div>
+            <div class="lienhe">
+                <button href="#" class="button">LIÊN HỆ</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            
+           <div class="hero-">
+            
+            <h1 class="hero-title">HẠ TẦNG CÔNG NGHỆ THÔNG TIN</h1>
+            <p class="hero-description">Với việc triển khai giải pháp hạ tầng dữ liệu hiệu quả, doanh nghiệp có thể khai thác tối đa giá trị từ dữ liệu, từ đó nâng cao hiệu quả hoạt động, tăng lợi thế cạnh tranh và đạt được thành công trong kinh doanh.</p>
+            <div class="button1" >
+                <button href="#" class="button2">XEM THÊM</button>
+                <button href="#" class="button">LIÊN HỆ NGAY</button>
+            </div>
+        </div> 
+           <div class="imglab">
+                <img src="pngegg 1.png" alt="imglab">
+            </div>
+          
+
+        </div>
+    </section>
+
+    <section class="partners">
+        <h2 style="color: rgb(0, 149, 255);">ĐỐI TÁC</h2>
+        <div class="partner-logos">
+            <div class="partner-logo">
+                <img src="RSA.png" alt="RSA Logo">
+            </div>
+            <div class="partner-logo">
+                <img src="dell.png" alt="DELL EMC Logo">
+            </div>
+            <div class="partner-logo">
+                <img src="infi.png" alt="Infinera Logo">
+            </div>
+            <div class="partner-logo">
+                <img src="ciscio.png" alt="Cisco Logo">
+            </div>
+        </div>
+    </section>
+    <iframe src="2.html" width="100%" height="500px"></iframe>
+    <iframe src="dichvu.html" width="100%" height="500px"></iframe>
+    <iframe src="giaiphap.html" width="100%" height="900px"></iframe>
+    <iframe src="tintuc.html" width="100%" height="600px"></iframe>
+    <iframe src="lienhe.html" width="100%" height="600px"></iframe>
+    
+</body>
 </html>

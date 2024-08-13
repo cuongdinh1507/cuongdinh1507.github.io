@@ -1,43 +1,152 @@
 body {
-    font-family: sans-serif;
+  
     margin: 0;
     padding: 0;
+    /* background-color: #2C90CE; */
 }
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+
+header {
+    background-color: #fff;
+   
+    text-align: center;
+   
 }
-h1 {
-    text-align: left;
-}
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-li {
-    margin-bottom: 5px;
-}
-input[type="checkbox"] {
-    margin-right: 5px;   
-}
-.add-item {
+
+.header {
     display: flex;
+    
+}
+.imglogo{
+    
+    height: 188px;
+}
+
+.logo {
+    display: inline-block;
+    /* margin-right: 1000px;3 */
+}
+
+.logo img {
+    width: 100px;
+}
+a {
+    text-decoration: none;
+    color: #be1919;
+}
+.nav-links a {
+    margin: 80px;
+    font-family: 'Inter';
+}
+.nav-links {
+   
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+
 }
-.add-item input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 100px;
-    flex: 1;
+.imglab{
+    width: 519px;
+    height: 495px;
+
 }
-.add-item button {
-    padding: 10px 20px;
-    background-color: #130ce5;
-    color: white;
-    border: none;
+.lienhe {
+    
+    margin: 60px;
+    width: 193px;
+    height: 75px;
+    
+  
+}
+
+
+
+.hero {
+    
+    background-image: url('fs06wu0q 1.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    
+    
+   
+  
+}
+.hero-{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.hero-content {
+   display: flex;
+    padding: 30px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin-left: 100px;
+   
+    
+}
+
+.hero-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+
+    text-align: left;
+    
+}
+
+.hero-description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: left;
+    margin-right: 300px;
+}
+
+.button {
+    background-color: #AB2D2E;
+    color: #fff;
+    padding: 14px;
     border-radius: 50px;
-    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter';
+}
+.button1{
+    
+    margin-right: 300px;
+    padding: 14px;
+}
+
+.button2{
+    background-color: #206C9B;
+    color: #fff;
+    padding: 14px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter';
+}
+
+
+.partners {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.partner-logo {
+    margin: 10px;
+}
+
+.partner-logo img {
+    width: 150px;
 }

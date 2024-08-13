@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            background-color: #AB2D2E;
+            
+        }
+        .left-side {
+            width: 50%;
+            padding: 50px;
+            color: #ffffff;
+            margin-top: 150px;
+            margin-left: 100px;
+            
+        }
+        .left-side h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .left-side p {
+            font-size: 18px;
+        }
+        .left-side ul {
+            list-style: none;
+            padding: 0;
+            
+        }
+        .check{
+          display: flex;
+          
+        }
+        
+        .checkb{
+            margin-left: 30px;
+            padding-left: 50px;
+            justify-content: start;
+        }
+        .left-side li {
+            display: flex;
+            
+            margin-bottom: 10px;
+        }
+        .left-side li input {
+            margin-right: 10px;
+        }
+        .right-side {
+            width: 50%;
+            position: relative;
+          
+            border-radius: 100px 0 0 100px;
+            overflow: hidden;
+            padding-bottom: 50px;
+        }
+        .right-side img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>VỀ GTSC</h1>
+            <p>Công ty cổ phần thương mại và dịch vụ công nghệ GTSC Việt Nam là một đơn vị thành viên thuộc Tổng Công ty Công nghệ - Viễn thông Toàn cầu – doanh nghiệp Nhà nước do Bộ Công an làm Chủ sở hữu.</p>
+            <ul>
+                <div class="checked" >
+            <div class="check">
+                <li><input type="checkbox" checked> Kinh nghiệm dày dạn</li>
+                <li class="checkb" style="margin-right: 2px; ;" ><input type="checkbox" checked> Dịch vụ chất lượng</li>
+            </div>
+            <div class="check">
+                <li><input type="checkbox" checked> Giải pháp toàn diện</li>
+                <li class="checkb"><input type="checkbox" checked> Uy tín và thương hiệu</li>
+            </div>
+        </div>
+            </ul>
+        </div>
+        <div class="right-side">
+            <img src="Group 115.png" alt="person working on a computer">
+        </div>
+    </div>
+</body>
+</html>
