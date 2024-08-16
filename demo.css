@@ -1,0 +1,223 @@
+body {
+    margin: 0; /* Xóa bỏ khoảng trắng mặc định xung quanh body */
+    padding: 0; /* Xóa bỏ khoảng đệm mặc định xung quanh body */
+   
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.tcup{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+   flex: 1;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 999;
+   height: 100px;
+}
+.tcup ul{
+    
+    display: flex;
+    justify-content: space-around;
+    flex: 3;
+    margin: auto;
+    font-size: 20px;
+    list-style: none;
+}
+.tcup a{
+    text-decoration: none;
+    color: #AB2D2E;
+    font-weight: 550;
+}
+.buttonup{
+   flex: 1;
+   display: flex;
+}
+.buttonup button{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    background-color: #AB2D2E;
+    font-size: 20px;
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: 550;
+}
+.tcdow{
+    flex-wrap: wrap;
+    margin-top: 164px;
+display: flex;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+}
+.tcdow img{
+    width: 100%;
+}
+.font{
+    width: 25%;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-size: 18px;
+   color: aliceblue;
+    height: 100%;
+}
+.font h2{
+    font-size: 33px;
+}
+.buttondow{
+    display: flex;
+    width: 360px;
+    justify-content: space-around;
+}
+.font button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #AB2D2E;
+    color: aliceblue;
+}
+.doitac h1{
+  text-align: center;
+  color: #2D8FCC;
+}
+.doitac{
+    margin-top: 250px;
+}
+.doitacdow{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.vegtsccoutainer-item h1{
+    text-align: center;
+    color: aliceblue;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.custom-list {
+    list-style-type: none; /* Loại bỏ ký hiệu mặc định */
+    padding-left: 0;
+}
+.custom-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background: url(Icons-feature.png) no-repeat left center;
+    background-size: 16px; /* Điều chỉnh kích thước hình ảnh */
+}
+.vegtsccoutainer{
+    display: flex;
+}
+.vegtsc{
+    background-color: #AB2D2E;
+   margin-top: 50px;
+   color: aliceblue;
+   border-radius: 15px;
+}
+.vegtsccoutainer-item{
+    margin: auto;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.imgvegtsc img{
+    width: px;
+    height: 523px;
+}
+.dichvu{
+    margin-top: 50px;
+}
+.dichvudow{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+.dichvuright{
+    display: flex;
+    
+}
+.dichvuleft{
+    display: flex;
+    
+}
+.dichvuup{
+    display: flex;
+    flex: 1;
+}
+.giaiphap{
+    background-color: #AB2D2E;
+    padding-top: 50px;
+    margin-top: 50px;
+    height: 800px;
+}
+.giaiphapi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.giaiphapitiem{
+    flex-basis: 30%;
+    background-color: aliceblue;
+    padding: 0 10px;
+    min-height: 237px;
+    border-radius: 30px;   
+}
+.giaiphapitiem p{
+    min-height: 220px;
+    font-size: 17px;
+}
+.giaiphapitiem h1{
+    text-align: center;
+}
+.tintuc{
+    margin-top: 50px;
+}
+.tintuciteim{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+}
+
+.diachi{
+    display: flex;
+    font-size: 17px;
+    background-color: #2D8FCC;
+    height: 550px;
+    color:white;
+}
+.diachiimg{
+    flex: 1;
+    margin: auto;
+    padding-left: 100px;
+
+}
+.diachiimg img{
+    width: 90%;
+    
+   
+}
+.diachiup{
+    display: flex;
+    
+}
+.diachiup h3{
+    
+    border-bottom: 5px solid white; /* Đường kẻ dày 3px và màu xanh */
+    
+    width: 250px; /* Đặt độ dài đường kẻ là 100px */
+    margin-top: 100px;
+
+}
+.diachilienhe{
+    margin-left: 20px;
+}
+.diachidow{
+   text-align: start;
+}
+.diachiright{
+    flex: 1;
+}
